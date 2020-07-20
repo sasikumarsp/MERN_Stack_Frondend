@@ -150,7 +150,7 @@ const JForm = (props) => {
                     <label>Deadline:</label>
                     <input
                         className="form-control"
-                        type="text"
+                        type="date"
                         name="deadline"
                         onChange={formik.handleChange}
                         value={formik.values.deadline}
